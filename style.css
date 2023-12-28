@@ -20,6 +20,7 @@ header {
     #video {
       width: 100%;
       max-height: 40vh;
+      display: block;
       object-fit: cover;
     }
 
@@ -64,18 +65,19 @@ video {
 }
 
 h3 {
+    font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: #402d2d;
 }
-h4{
+#info h4{
     margin-left: 60px;
     margin-right: 60px;
     font-size: small;
     text-decoration: none;
 }
 .sm-handle a{
-    background-color: #a6a1a1;
+    background-color: #6bb48d;
     padding: 5px 15px;
     border-radius: 30px;
     text-decoration: none;
@@ -90,8 +92,11 @@ iframe {
     clip-path: circle(40.7% at 50% 50%);
 }
 .navbar{
-    background-color: #e0f5efaf;
+    background-color: #acf4dfaf;
     color: #fdf8f8;
+    border:1px #90c6cd solid;
+  
+    box-shadow:1px 1px 4px #242222;
    
 }
 footer {
