@@ -9,7 +9,7 @@ body {
 }
 header {
     min-height: 20vh;
-    background-color:#0d090d
+    background-color: #024934;
 }
 .banner{
     height: 15vh;
@@ -73,9 +73,10 @@ iframe {
 .clip {
     clip-path: circle(40.7% at 50% 50%);
 }
-.navbar-expand-lg{
-    background-color: #ece8e8;
-    position: sticky;
+.navbar{
+    background-color: #0f644baf;
+    color: #fdf8f8;
+   
 }
 footer {
     background-color: #333;
