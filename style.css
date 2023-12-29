@@ -58,7 +58,7 @@ section {
     margin-top: 5px;
     min-height: 10vh;
 }
-video {
+video.cvideo{
     padding: 10px;
     height: 165px;
     width: 280px;
@@ -130,7 +130,7 @@ footer {
         border-radius: 3px;
     }
     section.video video {
-      padding: 2px;
+      
       width: 160px;
       height: 94.2857px;
     }
