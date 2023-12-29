@@ -44,16 +44,16 @@ section h2 span{
     padding: 5px 40px;
     font-size: medium;
     border-radius: 20px;
-    background: linear-gradient(to right ,rgb(45, 249, 27), rgb(152, 176, 12));
+    background: linear-gradient(to right ,rgb(20, 176, 6), rgb(4, 104, 144));
     text-align: center;
     color: rgb(252, 249, 249);
+    box-shadow:1px 3px 6px #333;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 section:nth-child(4) {
    max-height: 5vh;
 }
-
 section {
     margin-top: 5px;
     min-height: 10vh;
@@ -74,6 +74,9 @@ h3 {
     margin-left: 60px;
     margin-right: 60px;
     font-size: small;
+    
+}
+#info h4 a{
     text-decoration: none;
 }
 .sm-handle a{
@@ -95,9 +98,7 @@ iframe {
     background-color: #acf4dfaf;
     color: #fdf8f8;
     border:1px #90c6cd solid;
-  
     box-shadow:1px 1px 4px #242222;
-   
 }
 footer {
     background-color: #333;
@@ -111,5 +112,86 @@ footer {
     float: left;
     color: white;
 }
-
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for mobile and smaller screens */
+  
+    /* Courses section styles for larger screens */
+    header{
+        background-color: #0c0c0c;
+    }
+    .navbar{
+        background-color: #6bb48d;
+        border: #0c0c0c;
+    }
+    section {
+        padding: 5px;
+        box-shadow:1px 1px 2px 1px #333;
+        border-radius: 3px;
+    }
+    section.video video {
+      padding: 2px;
+      width: 160px;
+      height: 94.2857px;
+    }
+    section h2 span{
+        padding: 5px 20px;
+        font-size: small;
+        border-radius: 10px;
+        background: linear-gradient(to right ,rgb(9, 164, 99), rgb(15, 165, 224));
+        text-align: center;
+        color: rgb(5, 5, 5);
+        box-shadow:.5px 1.5px 3px #333;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    footer {
+        background-color: #c4f0d2; 
+    }
+    
+     footer a { 
+        text-decoration: none;
+        font-size: xx-small;
+        padding: 5px;
+        text-align: center;
+        color: rgb(14, 13, 13);
+    }
+    #info h4{
+        margin-left: 6px;
+        margin-right: 6px;
+        font-size: x-small;
+    }
+    .sm-handle a{
+        background-color: #6bb48d;
+        padding: 1px 5px;
+        font-size:x-small;
+        border-radius: 30px;
+        text-decoration: none;
+        color: #0f0f0f;
+        margin: 1px;
+    }
+    .clip {
+        width: 100px;
+    }
+    h3{
+        font-size: smaller;
+        color: aliceblue;
+    }
+    .flex-container{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: column;
+    }
+    .flex-container img{
+        margin: 3px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    /* Adjust styles for desktop screens */
+  
+    /* Courses section styles for desktop screens */
+    section.video video {
+      width: 25%;
+    }
+  }
 
